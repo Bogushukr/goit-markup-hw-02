@@ -11,12 +11,11 @@
     <!--hat-->
     <header>
         <nav>
-            <a href="/">WebStudio</a>
-
+            <a href="./">Web Studio</a>
             <ul>
-                <li><a href="">Сдуия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="#features">Сдуия</a></li>
+                <li><a href="./Partfolio.html">Портфолио</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
         <div>
@@ -37,9 +36,10 @@
     </section>
     <!--features-->
     <section>
-        <h2>Особенности</h2>
+        <h2 style="display: none;" id="features">Особенности</h2>
         <ul>
             <li>
+                <img src="./imges/attention.png" alt="">
                 <h3>Внимание к деталям</h3>
                 <p>
                     Идейные соображения, а также начало повседневной работы по
@@ -47,6 +47,7 @@
                 </p>
             </li>
             <li>
+                <img src="./imges/time.png" alt="">
                 <h3>Пунктуальность</h3>
                 <p>
                     Задача организации, в особенности же рамки и место обучения кадров
@@ -54,6 +55,7 @@
                 </p>
             </li>
             <li>
+                <img src="./imges/plan.png" alt="">
                 <h3>Планирование</h3>
                 <p>
                     Равным образом консультация с широким активом в значительной степени
@@ -61,6 +63,7 @@
                 </p>
             </li>
             <li>
+                <img src="./imges/techology.png" alt="">
                 <h3>Современные технологии</h3>
                 <p>
                     Значимость этих проблем настолько очевидна, что реализация плановых
@@ -72,52 +75,84 @@
     <!--activity-->
     <section>
         <h3>Чем мы занимаемся</h3>
-        <img src="./img/img1.svg" alt="close up image programer working his desk office" />
-        <img src="./img/img2.svg"
+        <img src="./imges/img1.svg" alt="close up image programer working his desk office" />
+        <img src="./imges/img2.svg"
             alt="web ui designers are developing application smartphones team creators is working interface mobile phones" />
-        <img src="./img/img3.svg" alt="creative artist web design with working colour selection graphic tablet" />
+        <img src="./imges/img3.svg" alt="creative artist web design with working colour selection graphic tablet" />
     </section>
     <!--team-->
     <section>
         <h4>Наша команда</h4>
         <figure>
-            <img src="./img/ihor.jpg" alt="ihor Product Designer" />
+            <img src="./imges/ihor.jpg" alt="ihor Product Designer" />
             <figcaption>
-                <strong>Игорь Демьяненко</strong>
+                <b>Игорь Демьяненко</b>
                 <p>Product Designer</p>
             </figcaption>
         </figure>
         <figure>
-            <img src="./img/olha.jpg" alt="olha Frontend Developer" />
+            <img src="./imges/olha.jpg" alt="olha Frontend Developer" />
             <figcaption>
-                <strong>Ольга Репина</strong>
+                <b>Ольга Репина</b>
                 <p>Frontend Developer</p>
             </figcaption>
         </figure>
         <figure>
-            <img src="./img/nikolay.jpg" alt="nikolay Marketing" />
+            <img src="./imges/nikolay.jpg" alt="nikolay Marketing" />
             <figcaption>
-                <strong>Николай Тарасов</strong>
+                <b>Николай Тарасов</b>
                 <p>Marketing</p>
             </figcaption>
         </figure>
         <figure>
-            <img src="./img/mikhail.jpg" alt="mikhail UI Designer" />
+            <img src="./imges/mikhail.jpg" alt="mikhail UI Designer" />
             <figcaption>
-                <strong>Михаил Ермаков</strong>
+                <b>Михаил Ермаков</b>
                 <p>UI Designer</p>
             </figcaption>
         </figure>
     </section>
+    <!-- partners -->
+    <section>
+        <h4>Постоянные клиенты</h4>
+       <ul>
+           <li>
+               <img src="./imges/Part1.svg" alt="partner one">
+           </li>
+           <li>
+                <img src="./imges/Part2.svg" alt="partner two">
+           </li>
+           <li>
+                <img src="./imges/Part3.svg" alt="partner three">
+            </li>
+           <li>
+                <img src="./imges/Part4.svg" alt="partner four">
+           </li>
+           <li>
+                <img src="./imges/Part5.svg" alt="partner five">
+           </li>
+           <li>
+                <img src="./imges/Part6.svg" alt="partner six">
+           </li>
+       </ul>
+    </section>
     <!--cellar-->
     <footer>
-        <address>
-            <a href="/">WebStudio</a>
-            <a href="/">г. Киев, пр-т Леси Украинки, 26</a>
+        <address id="contacts">
+            <a href="index.html">Web Studio</a>
+            <a href="https://goo.gl/maps/hYyRJfA977tLsEAp6" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
+        <div>
+            <b>присоединяйтесь</b>
+            <ul>
+                <li><a href="" aria-label="Instagram link">Instagram</a></li>
+                <li><a href="" aria-label="Twitter link">Twitter</a></li>
+                <li><a href=""aria-label="Facebook link">Facebook</a></li>
+                <li><a href=""aria-label="LinkedIn link">LinkedIn</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
-
 </html>
