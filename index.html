@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My second homework</title>
-    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <!--hat-->
     <header>
         <nav>
-            <a href="./">Web Studio</a>
-            <ul>
-                <li><a href="#features">Сдуия</a></li>
-                <li><a href="./Partfolio.html">Портфолио</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+            <a href="./" class="link"><span class="logo">Web</span><span class="logo-second">Studio</span></a>
+            <ul class="nav">
+                <li><a href="#features" class="nav link current">Сдуия</a></li>
+                <li><a href="./Partfolio.html" class="link">Портфолио</a></li>
+                <li><a href="#contacts" class="link">Контакты</a></li>
             </ul>
+            <div class="contakts-nav">
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </div>
         </nav>
-        <div>
-            <span>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </span>
-        </div>
-        <div>
-            <span>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
-            </span>
-        </div>
     </header>
     <!--banner-->
-    <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="/">Заказать услугу</a>
+    <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <a href="/" class="btn">Заказать услугу</a>
     </section>
     <!--features-->
     <section>
@@ -41,7 +34,7 @@
         <ul>
             <li>
                 <img src="./imges/attention.png" alt="">
-                <h3>Внимание к деталям</h3>
+                <h3 class="title-section-title">Внимание к деталям</h3>
                 <p>
                     Идейные соображения, а также начало повседневной работы по
                     формированию позиции.
@@ -49,7 +42,7 @@
             </li>
             <li>
                 <img src="./imges/time.png" alt="">
-                <h3>Пунктуальность</h3>
+                <h3 class="title-section-title">Пунктуальность</h3>
                 <p>
                     Задача организации, в особенности же рамки и место обучения кадров
                     влечет за собой.
@@ -57,7 +50,7 @@
             </li>
             <li>
                 <img src="./imges/plan.png" alt="">
-                <h3>Планирование</h3>
+                <h3 class="title-section-title">Планирование</h3>
                 <p>
                     Равным образом консультация с широким активом в значительной степени
                     обуславливает.
@@ -75,7 +68,7 @@
     </section>
     <!--activity-->
     <section>
-        <h3>Чем мы занимаемся</h3>
+        <h3 class="section-title">Чем мы занимаемся</h3>
         <img src="./imges/img1.svg" alt="close up image programer working his desk office" />
         <img src="./imges/img2.svg"
             alt="web ui designers are developing application smartphones team creators is working interface mobile phones" />
@@ -83,75 +76,100 @@
     </section>
     <!--team-->
     <section>
-        <h4>Наша команда</h4>
+        <h4 class="section-title">Наша команда</h4>
         <figure>
             <img src="./imges/ihor.jpg" alt="ihor Product Designer" />
             <figcaption>
-                <b>Игорь Демьяненко</b>
+                <b class="team-title">Игорь Демьяненко</b>
                 <p>Product Designer</p>
+                <ul>
+                    <li><a href="" aria-label="Instagram link" class="link">Instagram</a></li>
+                    <li><a href="" aria-label="Twitter link" class="link">Twitter</a></li>
+                    <li><a href="" aria-label="Facebook link" class="link">Facebook</a></li>
+                    <li><a href="" aria-label="LinkedIn link" class="link">LinkedIn</a></li>
+                </ul>
             </figcaption>
         </figure>
         <figure>
             <img src="./imges/olha.jpg" alt="olha Frontend Developer" />
             <figcaption>
-                <b>Ольга Репина</b>
+                <b class="team-title">Ольга Репина</b>
                 <p>Frontend Developer</p>
+                <ul>
+                    <li><a href="" aria-label="Instagram link" class="link">Instagram</a></li>
+                    <li><a href="" aria-label="Twitter link" class="link">Twitter</a></li>
+                    <li><a href="" aria-label="Facebook link" class="link">Facebook</a></li>
+                    <li><a href="" aria-label="LinkedIn link" class="link">LinkedIn</a></li>
+                </ul>
             </figcaption>
         </figure>
         <figure>
             <img src="./imges/nikolay.jpg" alt="nikolay Marketing" />
             <figcaption>
-                <b>Николай Тарасов</b>
+                <b class="team-title">Николай Тарасов</b>
                 <p>Marketing</p>
+                <ul>
+                    <li><a href="" aria-label="Instagram link" class="link">Instagram</a></li>
+                    <li><a href="" aria-label="Twitter link" class="link">Twitter</a></li>
+                    <li><a href="" aria-label="Facebook link" class="link">Facebook</a></li>
+                    <li><a href="" aria-label="LinkedIn link" class="link">LinkedIn</a></li>
+                </ul>
             </figcaption>
         </figure>
         <figure>
             <img src="./imges/mikhail.jpg" alt="mikhail UI Designer" />
             <figcaption>
-                <b>Михаил Ермаков</b>
+                <b class="team-title">Михаил Ермаков</b>
                 <p>UI Designer</p>
+                <ul>
+                    <li><a href="" aria-label="Instagram link" class="link">Instagram</a></li>
+                    <li><a href="" aria-label="Twitter link" class="link">Twitter</a></li>
+                    <li><a href="" aria-label="Facebook link" class="link">Facebook</a></li>
+                    <li><a href="" aria-label="LinkedIn link" class="link">LinkedIn</a></li>
+                </ul>
             </figcaption>
         </figure>
     </section>
     <!-- partners -->
     <section>
-        <h4>Постоянные клиенты</h4>
-       <ul>
-           <li>
-               <img src="./imges/Part1.svg" alt="partner one">
-           </li>
-           <li>
+        <h4 class="section-title">Постоянные клиенты</h4>
+        <ul>
+            <li>
+                <img src="./imges/Part1.svg" alt="partner one">
+            </li>
+            <li>
                 <img src="./imges/part2.svg" alt="partner two">
-           </li>
-           <li>
+            </li>
+            <li>
                 <img src="./imges/part3.svg" alt="partner three">
             </li>
-           <li>
+            <li>
                 <img src="./imges/part4.svg" alt="partner four">
-           </li>
-           <li>
+            </li>
+            <li>
                 <img src="./imges/part5.svg" alt="partner five">
-           </li>
-           <li>
+            </li>
+            <li>
                 <img src="./imges/part6.svg" alt="partner six">
-           </li>
-       </ul>
+            </li>
+        </ul>
     </section>
     <!--cellar-->
     <footer>
         <address id="contacts">
-            <a href="index.html">Web Studio</a>
-            <a href="https://goo.gl/maps/hYyRJfA977tLsEAp6" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="index.html" class="link">WebStudio</a>
+            <a href="https://goo.gl/maps/hYyRJfA977tLsEAp6" class="link" target="_blank" rel="noreferrer noopener">г.
+                Киев, пр-т Леси Украинки, 26</a>
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </address>
         <div>
             <b>присоединяйтесь</b>
             <ul>
-                <li><a href="" aria-label="Instagram link">Instagram</a></li>
-                <li><a href="" aria-label="Twitter link">Twitter</a></li>
-                <li><a href=""aria-label="Facebook link">Facebook</a></li>
-                <li><a href=""aria-label="LinkedIn link">LinkedIn</a></li>
+                <li><a href="" aria-label="Instagram link" class="link">Instagram</a></li>
+                <li><a href="" aria-label="Twitter link" class="link">Twitter</a></li>
+                <li><a href="" aria-label="Facebook link" class="link">Facebook</a></li>
+                <li><a href="" aria-label="LinkedIn link" class="link">LinkedIn</a></li>
             </ul>
         </div>
     </footer>
