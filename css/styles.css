@@ -55,6 +55,8 @@
   --black-text: #212121;
   --second-fon: #f5f4fa;
   --wight-text: #ffffff;
+  --cellar-fon: #2F303A;
+  --team-fon: #F5F4FA;
 }
 
 body {
@@ -154,6 +156,49 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-text);
+}
+
+.team {
+  background-color: var(--team-fon);
+}
+.cellar {
+  background-color: var(--cellar-fon);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-logo-second {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-map {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--wight-text);
+}
+
+.footer-social {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--wight-text);
 }
 
 
