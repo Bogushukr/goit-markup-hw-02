@@ -55,16 +55,16 @@
   --black-text: #212121;
   --second-fon: #f5f4fa;
   --wight-text: #ffffff;
-  --cellar-fon: #2F303A;
-  --team-fon: #F5F4FA;
+  --cellar-fon: #2f303a;
+  --team-fon: #f5f4fa;
 }
 
 body {
-    font-family: "Roboto";
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.20em;
-    color: var(--main-text-cl);
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.2em;
+  color: var(--main-text-cl);
 }
 
 .nav .link.current {
@@ -97,7 +97,7 @@ body {
   text-decoration: none;
 }
 
-.link{
+.link {
   color: inherit;
   text-decoration: none;
 }
@@ -200,35 +200,3 @@ ul {
   text-transform: uppercase;
   color: var(--wight-text);
 }
-
-
-/* /* 
-.logo {
-}
-
- */
-}
-/* 
-/* site nav */
-/* .site-nav .link {
-  color: #212121;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
-
-.contakts-nav .link {
-  color: #757575;
-}
-.contakts-nav .link:hover,
-.contakts-nav .link:focus {
-  columns: #2196f3;
-}
-
-.hero-title {
-  color: #ffffff;
-}
-.aection-title {
-  color: #212121; */
-} */ */
